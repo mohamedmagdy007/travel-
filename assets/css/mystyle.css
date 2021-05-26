@@ -1,0 +1,202 @@
+/*
+Small devices (landscape phones, 576 px and up)*/
+*{
+    outline: none;
+    -webkit-appearance: auto;
+}
+input[type="checkbox"]{
+    -webkit-appearance: auto;
+   
+}
+
+
+.booking-form input[type="date"] {
+    /* background: #fff url(../images/date.png) 89% 50% no-repeat; */
+    -webkit-appearance: auto;
+} 
+.col-form-label{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+button.navbar-toggler.bg-gradient.collapsed {
+    margin-top: 8px;
+
+}
+.modal-content{
+    border: 10px solid #fff;
+    border-radius: 0.3rem;
+}
+.modal-header {
+    color: #eee;
+    border: none;
+    text-transform: capitalize;
+    margin: 0 auto;
+    width: 100%;
+    background: #FF1654;
+    border-top-left-radius : 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+.modal-title{
+    color: #eee;
+}
+input[value="Register"],input[value="Login"]{
+    background-color: #FF1654;
+    text-transform: uppercase;
+}
+input[value="Login"]:focus,input[value="Register"]:focus{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.2rem rgb(230 0 61 / 36%);
+}
+
+label[for="brand1"],label[for="brand2"]{
+    font-weight: 600;
+    color: #000;
+}
+button.close{
+    outline: none;
+    border: none;
+}
+.dropdown-menu{
+    left: -81px;
+}
+.w3l-stats .stats_info{
+    text-align: center;
+}
+.dropdown-menu a::before{
+    transition: all .5s;
+}
+.dropdown-menu a::before:hover
+{
+    width: 100%;
+}
+.dropdown-menu .dropdown-item { 
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+   
+    font-size: 1em;
+    font-weight: 400;
+    position: relative;
+}
+.dropdown-menu .dropdown-item::before{
+    position: absolute;
+    content: '';
+    background: var(--secondary-color);
+    width: 0%;
+    height: 2px;
+    bottom: 13px;
+}
+.dropdown-menu .dropdown-item:hover:before{
+    width: 100%;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: #FF1654;
+    
+}
+.subject-card-header.p-4.p-lg-2:hover {
+    box-shadow: 0 0 6px 2px #d92278;
+}
+.subject-card-header.p-4.p-lg-2 {
+    transition: all 0.8s ease;
+}
+a.btn.btn-secondary.mt-2{
+    width: 100%;
+}
+.img-travel-hover{
+    min-width: 100%;
+    transition: all 0.3s ease; 
+    border-radius: 0px;
+}
+.img-travel-hover:hover{
+    transform: scale(1.1);
+}
+.link-hover:hover{
+    text-decoration: underline;
+}
+.card{
+    background-color: transparent;
+    border: 1px solid  var(--border-color);
+}
+.favorite {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+.favorite .fas.fa-heart {
+    font-size: 30px;
+    color: #fff;
+}
+.offer {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background-color: #d92278;
+    border-radius: 5px;
+}
+.offer p {
+    color: #fff;
+    padding: 5px 8px;
+}
+i.far.fa-clock:hover {
+    color: #ef9632;
+}
+i.fas.fa-luggage-cart,i.fas.fa-bell {
+    padding-top: 4px;
+}
+.count-cart {
+    position: absolute;
+    font-size: 14px;
+    background-color: #9c0000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 1.4;
+    top: 5px;
+    /* right: -17px; */
+    /* color: #fff; */
+}
+.rome {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+}
+#book:hover{
+    background-color:#FF1654;
+   border:1px solid #d92278 ;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(230 0 61 / 36%);
+}
+button.fov {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+i.fas.fa-times:hover{
+    color:#dc3545 ;
+}
+i.fas.fa-times {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 7px;
+    text-align: center;
+}
+button.navbar-toggler.bg-gradient {
+    margin-top: 8px;
+}
+@media only screen and (max-width: 991px) {
+
+    #site-footer .copyright,
+    #site-footer ul.footer-menu {
+      text-align: center;
+    }
+  
+    .btn-group {
+      position: absolute;
+      right: 95px;
+      top: 10px;
+    }
+
+    
+}
